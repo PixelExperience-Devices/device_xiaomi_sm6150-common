@@ -350,6 +350,7 @@ void SystemStatusOsObserver::notify(const list<IDataItemCore*>& dlist)
         vector<IDataItemCore*> dataItemVec(dlist.size());
 
         for (auto each : dlist) {
+
             IDataItemCore* di = DataItemsFactoryProxy::createNewDataItem(each->getId());
             if (nullptr == di) {
                 LOC_LOGw("Unable to create dataitem:%d", each->getId());
