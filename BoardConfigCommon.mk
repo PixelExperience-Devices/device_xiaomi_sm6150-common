@@ -185,7 +185,6 @@ endif
 TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
 
 # Releasetools
-TARGET_RECOVERY_UPDATER_LIBS := librecovery_updater_xiaomi
 TARGET_RELEASETOOLS_EXTENSIONS := $(COMMON_PATH)
 
 # RenderScript
