@@ -9,7 +9,7 @@
     "repository" : "vendor_xiaomi_sm6150-common",
     "target_path": "vendor/xiaomi/sm6150-common",
     "branch": "ten",
-    "remote": "pixel-devices-bitbucket"
+    "remote": "pixel-devices-blobs"
   },
   {
     "repository"   :"packages_apps_PixelLiveWallpaper",
