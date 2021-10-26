@@ -194,6 +194,9 @@ PRODUCT_PACKAGES += \
     FM2 \
     qcom.fmradio
 
+# IFAA manager
+include vendor/xiaomi/sdm845-common-extra/ifaa.mk
+
 # GPS
 PRODUCT_PACKAGES += \
     android.hardware.gnss@1.0.vendor \
