@@ -1,8 +1,8 @@
 [
  {
-   "repository"  : "android_hardware_xiaomi",
+   "repository"  : "LineageOS/android_hardware_xiaomi",
    "target_path" : "hardware/xiaomi",
-   "remote"      : "lineage",
+   "remote"      : "github",
    "branch"      : "lineage-18.1"
  },
  {
